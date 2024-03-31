@@ -1,0 +1,15 @@
+/* MyComponent.css */
+.custom-alert-animation {
+    animation: myCustomAnimation 2.5s ease-in-out;
+}
+
+@keyframes myCustomAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
